@@ -1,0 +1,24 @@
+/* Container for the compact decision path shown on test cards */
+.decision-path {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.75rem 0 1rem;
+}
+
+/*
+Prevent Mermaid from shrinking the diagram until its labels become
+difficult to read. On narrow screens, the container becomes scrollable.
+*/
+.decision-path .mermaid {
+  min-width: 820px;
+  text-align: center;
+}
+
+.decision-path .mermaid svg {
+  display: block;
+  width: auto;
+  min-width: 820px;
+  max-width: none;
+  margin: 0 auto;
+}
