@@ -28,18 +28,18 @@ The paired t-test is used when the two observations in each pair belong to the s
 
 Use a **paired t-test** when:
 
-- the outcome is numerical;
-- there are two related measurements;
-- every observation in one condition has a corresponding observation in the other condition;
-- the analysis focuses on the **difference within each pair**;
+- the outcome is numerical.
+- there are two related measurements.
+- every observation in **one condition** has a corresponding observation in the **other condition**.
+- the analysis focuses on the **difference within each pair**.
 - those pairwise differences are approximately normally distributed.
 
 Typical examples include:
 
-- measurements taken before and after an intervention;
-- scores from the same students under two teaching methods;
-- measurements from matched participants;
-- two measurements taken from the same experimental unit.
+- measurements taken **before** and **after** an intervention.
+- scores from the same students under **two teaching methods**.
+- measurements from **matched participants**.
+- **two measurements** taken from the same **experimental unit**.
 
 In Python:
 
@@ -85,10 +85,10 @@ The paired t-test is therefore mathematically equivalent to applying a **one-sam
 Use a paired t-test when all of the following conditions are satisfied:
 
 - The dependent variable is numerical.
-- There are exactly two conditions or measurement occasions.
-- The observations can be matched one-to-one.
-- Each pair is independent of every other pair.
-- The pairwise differences are reasonably compatible with a normal distribution.
+- There are exactly **two conditions or measurement occasions**.
+- The observations can be matched **one-to-one**.
+- **Each pair is independent of every other pair**.
+- The pairwise **differences are reasonably compatible with a normal distribution**.
 - The mean difference is the quantity you want to estimate and test.
 
 Common paired designs include:
@@ -465,9 +465,9 @@ Instead:
 
 Use an independent-samples test:
 
-- Welch's t-test when comparing means;
-- Student's independent t-test only when equal variances are defensible;
-- Mann–Whitney U for an appropriate rank-based comparison;
+- Welch's t-test when comparing means.
+- Student's independent t-test only when equal variances are defensible.
+- Mann–Whitney U for an appropriate rank-based comparison.
 - an independent-samples permutation test.
 
 ---
@@ -478,8 +478,8 @@ A paired t-test is not sufficient.
 
 Consider:
 
-- repeated-measures ANOVA;
-- a linear mixed-effects model;
+- repeated-measures ANOVA.
+- a linear mixed-effects model.
 - the Friedman test for a rank-based repeated-measures analysis.
 
 Running many paired t-tests increases the risk of false-positive conclusions unless multiplicity is addressed.
@@ -490,9 +490,9 @@ Running many paired t-tests increases the risk of false-positive conclusions unl
 
 Possible alternatives include:
 
-- the Wilcoxon signed-rank test;
-- a sign test;
-- a paired permutation test;
+- the Wilcoxon signed-rank test.
+- a sign test.
+- a paired permutation test.
 - a bootstrap confidence interval for the mean difference.
 
 These methods answer related but not always identical questions.
@@ -507,10 +507,10 @@ If the scientific target remains the **mean difference**, a paired permutation p
 
 Consider:
 
-- correcting confirmed data errors;
-- reporting analyses with and without the observation;
-- using a robust location estimator;
-- applying a robust paired method;
+- correcting confirmed data errors.
+- reporting analyses with and without the observation.
+- using a robust location estimator.
+- applying a robust paired method.
 - using a rank-based or permutation procedure when appropriate.
 
 The final choice should reflect the research question, not only which method produces the smallest p-value.
@@ -731,7 +731,7 @@ These plots can reveal:
 
 ## Interpretation
 
-Choose a significance level before analysing the data.
+Choose a significance level **before analysing the data**.
 
 A common choice is:
 
@@ -759,18 +759,18 @@ This does **not** prove that:
 
 A non-significant result may reflect:
 
-- a genuinely small difference;
-- high variability in the differences;
-- too few pairs;
-- imprecise measurement;
+- a genuinely small difference.
+- high variability in the differences.
+- too few pairs.
+- imprecise measurement.
 - an interval of plausible effects that includes both meaningful and negligible values.
 
 Always interpret the p-value together with:
 
-- the estimated mean difference;
-- its confidence interval;
-- the sample size;
-- the variability of the differences;
+- the estimated mean difference.
+- its confidence interval.
+- the sample size.
+- the variability of the differences.
 - the practical relevance of the effect.
 
 ---
