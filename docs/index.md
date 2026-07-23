@@ -10,18 +10,20 @@ flowchart TD
     START -->|"One sample against a reference value"| ONE["One-sample t-test"]
     START -->|"Two paired measurements"| PAIRED["Paired t-test"]
     START -->|"Two independent groups"| WELCH["Welch's t-test"]
-    START -->|"Three or more independent groups"| ANOVA["One-way ANOVA"]
+    START -->|"Three or more independent groups"| ANOVA1["One-way ANOVA"]
+    START -->|"The effects of two categorical factors"| ANOVA2["Two-way ANOVA"]
 
     click ONE "tests/one-sample-t-test/" "Open the One-sample t-test card"
     click PAIRED "tests/paired-t-test/" "Open the Paired t-test card"
     click WELCH "tests/welch-t-test/" "Open the Welch's t-test card"
-    click ANOVA "tests/one-way-anova/" "Open the One-way ANOVA card"
+    click ANOVA1 "tests/one-way-anova/" "Open the One-way ANOVA card"
+    click ANOVA2 "tests/two-way-anova/" "Open the Two-way ANOVA card"
 
     classDef question fill:#e8f1fb,stroke:#2463a6,stroke-width:2px,color:#111;
     classDef continuous fill:#e7f4ea,stroke:#2e7d32,stroke-width:2px,color:#111;
 
     class START question;
-    class ONE,PAIRED,WELCH,ANOVA continuous;
+    class ONE,PAIRED,WELCH,ANOVA1,ANOVA2 continuous;
 ```
 
 ## Available methods
@@ -38,8 +40,11 @@ flowchart TD
   Compare the means of two independent groups without assuming equal variances.
 
 - [One-way ANOVA](tests/one-way-anova.md)  
-  Compare the means of three or more independent groups.
+  Compare the means of three or more independent groups defined by a single categorical factor.
+
+- [Two-way ANOVA](tests/two-way-anova.md)  
+  Evaluate the effects of two categorical factors simultaneously and determine whether they interact.
 
 ---
 
-*More statistical methods will be added over time, including Two-way ANOVA, non-parametric tests, regression models and assumption checks.*
+*More statistical methods will be added over time, including assumption checks, non-parametric tests, regression models, categorical data analysis and statistical concepts.*
