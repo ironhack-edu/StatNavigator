@@ -128,7 +128,7 @@ If the same individuals are measured twice, use a
 
 If the target concerns relative ranks or whether observations in one
 group tend to be larger than those in another, consider the
-[Mann–Whitney U test](mann-whitney-u-test.md).
+Mann–Whitney U test *(coming soon)*
 
 ---
 
@@ -383,7 +383,7 @@ Examples include:
 
 If the samples are small and the data show severe skewness or influential
 outliers, consider the
-[Mann–Whitney U test](mann-whitney-u-test.md).
+Mann–Whitney U test *(coming soon)*
 
 Mann–Whitney U is a rank-based test for two independent groups.
 
@@ -701,22 +701,19 @@ Replace the numbers with the actual results from the analysis.
 
 - [Paired t-test](paired-t-test.md): two related or paired measurements.
 - [One-way ANOVA](one-way-anova.md): more than two independent groups.
-- [Welch's ANOVA](welch-anova.md): more than two independent groups
-  without assuming equal variances.
+- Welch's ANOVA: *(comming soon)*
 
 ### Non-parametric or resampling alternatives
 
-- [Mann–Whitney U test](mann-whitney-u-test.md): rank-based comparison of
-  two independent groups.
-- [Permutation test for two independent means](permutation-mean-test.md):
-  resampling-based test of the mean difference.
+- Mann–Whitney U test *(coming soon)* 
+- Permutation test for two independent means: *(coming soon)*
 
 ### Statistical concepts
 
-- [Null and alternative hypotheses](../concepts/hypotheses.md)
-- [P-values](../concepts/p-values.md)
-- [Confidence intervals](../concepts/confidence-intervals.md)
-- [Effect sizes](../concepts/effect-sizes.md)
+- Null and alternative hypotheses: *(../concepts/hypotheses.md)*
+- P-values: *(../concepts/p-values.md)*
+- Confidence intervals: *(../concepts/confidence-intervals.md)*
+- Effect sizes: *(../concepts/effect-sizes.md)*
 
 ---
 
@@ -726,5 +723,5 @@ Replace the numbers with the actual results from the analysis.
 
 Continue with:
 
-- [Mann–Whitney U test →](mann-whitney-u-test.md)
+- Mann–Whitney U test *(coming soon)* 
 - [Paired t-test →](paired-t-test.md)
