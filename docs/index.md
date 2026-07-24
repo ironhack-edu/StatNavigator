@@ -1,6 +1,6 @@
 # Choosing the Right Statistical Method
 
-Use the diagram below to identify an appropriate statistical method. Good luck!
+Use the diagram below to identify an appropriate statistical method.
 
 ```mermaid
 flowchart TD
