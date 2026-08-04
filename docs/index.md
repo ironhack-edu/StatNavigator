@@ -1,6 +1,73 @@
-# Choosing the Right Statistical Method
+# Statistical Test Navigator
 
-Use the diagram below to identify an appropriate statistical method.
+*One inferential workflow. Many statistical tests.*
+
+All classical hypothesis tests follow the same workflow.
+
+Once you understand that workflow, learning a new statistical test becomes much easier.
+
+## The common hypothesis-testing workflow
+
+```mermaid
+flowchart TD;
+    QUESTION["Research question"];
+    PARAMETER["Identify the parameter of interest"];
+    HYPOTHESES["Formulate H₀ and H₁"];
+    ALPHA["Choose α"];
+    STATISTIC["Compute the test statistic"];
+    DISTRIBUTION["Identify its null distribution"];
+    DECISION_METHOD{"Choose a decision method"};
+    CRITICAL["Compare with critical value(s)"];
+    PVALUE["Calculate the p-value"];
+    DECISION["Make a statistical decision"];
+    CONCLUSION["Draw a scientific conclusion"];
+
+    QUESTION --> PARAMETER;
+    PARAMETER --> HYPOTHESES;
+    HYPOTHESES --> ALPHA;
+    ALPHA --> STATISTIC;
+    STATISTIC --> DISTRIBUTION;
+    DISTRIBUTION --> DECISION_METHOD;
+    DECISION_METHOD -->|"Critical-region approach"| CRITICAL;
+    DECISION_METHOD -->|"p-value approach"| PVALUE;
+    CRITICAL --> DECISION;
+    PVALUE --> DECISION;
+    DECISION --> CONCLUSION;
+
+    classDef step fill:#e8f1fb,stroke:#2463a6,stroke-width:2px,color:#111;
+    classDef choice fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#111;
+    classDef result fill:#e7f4ea,stroke:#2e7d32,stroke-width:2px,color:#111;
+
+    class QUESTION,PARAMETER,HYPOTHESES,ALPHA,STATISTIC,DISTRIBUTION,CRITICAL,PVALUE step;
+    class DECISION_METHOD choice;
+    class DECISION,CONCLUSION result;
+```
+
+Although statistical tests differ in their assumptions, test statistics,
+and probability distributions, they all follow the same inferential
+workflow.
+
+### What remains constant and what changes?
+
+| Common to every hypothesis test | Depends on the statistical test |
+|---------------------------------|---------------------------------|
+| Define the research question | Test statistic |
+| Formulate the null and alternative hypotheses | Null distribution (t, z, F, χ², ...) |
+| Choose the significance level (\(\alpha\)) | Assumptions |
+| Compute the test statistic | Type of data |
+| Obtain either the critical value(s) or the p-value | Conditions under which the test is applicable |
+| Make a statistical decision | Interpretation specific to the method |
+
+The goal of **StatNavigator** is to show that hypothesis tests share a
+common inferential workflow. What changes from one method to another is
+the test statistic, its null distribution, the underlying assumptions,
+and the situations in which the method is appropriate.
+
+Use the decision diagram to identify an appropriate statistical method,
+then explore the method cards and conceptual guides to understand how
+and why each procedure works.
+
+## Choose a statistical method
 
 ```mermaid
 flowchart TD
@@ -55,4 +122,16 @@ flowchart TD
 
 ---
 
-*More statistical methods will be added over time, including assumption checks, non-parametric tests, regression models, categorical data analysis and statistical concepts.*
+## Concepts
+
+Statistical methods are easier to apply correctly when their underlying
+ideas are understood.
+
+- [Statistical hypotheses](concepts/hypotheses.md)  
+  Learn how to formulate null and alternative hypotheses, what rejecting
+  or failing to reject a hypothesis means, and why the claim to be
+  supported is normally placed in \(H_1\).
+
+*StatNavigator is under active development. Future additions will include
+assumption checks, non-parametric methods, regression models, categorical
+data analysis, and further conceptual guides.*

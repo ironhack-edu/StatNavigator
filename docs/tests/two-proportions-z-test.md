@@ -531,6 +531,10 @@ n_2(1-\hat{p})
 
 where \(\hat{p}\) is the pooled proportion under the null.
 
+For a detailed explanation of how null and alternative hypotheses should
+be formulated, see
+[Statistical hypotheses](../concepts/hypotheses.md).
+
 ---
 
 ### 5. Representative sampling or valid assignment
