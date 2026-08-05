@@ -1,4 +1,5 @@
 ---
+- Two-way ANOVA
 title: Statistical hypotheses
 ---
 
@@ -206,7 +207,7 @@ null hypothesis.
 For example:
 
 \[
-p<\alpha
+p_{value}<\alpha
 \]
 
 may lead us to reject \(H_0\).
@@ -233,7 +234,7 @@ If the evidence is not sufficiently strong, we fail to reject \(H_0\).
 For example:
 
 \[
-p\geq\alpha
+p_{value}\geq\alpha
 \]
 
 The conclusion is:

@@ -505,7 +505,7 @@ Whenever you encounter a new hypothesis test:
 ## Related concepts
 
 - [Statistical hypotheses](hypotheses.md)
-- Probability distributions *(coming soon)*
+- [Probability distributions](probability-distributions.md)
 - Critical values *(coming soon)*
 - P-values *(coming soon)*
 - Cumulative distribution functions (CDF) *(coming soon)*
