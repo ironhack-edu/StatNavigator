@@ -228,7 +228,7 @@ Typical applications include:
 
 - z-tests
 - confidence intervals based on the Normal approximation
-- the [Central Limit Theorem](central-limit-theorem.md) *(coming soon)*
+- the [Central Limit Theorem]*(coming soon)*
 
 ---
 
