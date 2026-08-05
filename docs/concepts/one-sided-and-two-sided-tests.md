@@ -223,28 +223,11 @@ H_0:\mu_1=\mu_2
 H_1:\mu_1\neq\mu_2
 \]
 
-If the alternative hypothesis is true,
+If the alternative hypothesis is true, the numerator may become positive or negative.
 
-the numerator may become
+Therefore, the statistic may become strongly positive or strongly negative.
 
-positive
-
-or
-
-negative.
-
-Therefore,
-
-the statistic may become
-
-strongly positive
-
-or
-
-strongly negative.
-
-Evidence against the null hypothesis can therefore accumulate in either
-tail.
+Evidence against the null hypothesis can therefore accumulate in either tail.
 
 ```text
                  H₀ : θ = θ₀
@@ -369,7 +352,7 @@ equivalent ways to perform the hypothesis test.
 Compute the test statistic and compare it with one or more critical
 values (one critical value for each rejection region).
 
-Reject the null hypothesis if the statistic falls inside the rejection
+Reject the null hypothesis if the statistic falls inside a rejection
 region.
 
 This approach makes the rejection region explicit and is often the
@@ -380,12 +363,12 @@ easiest way to understand the logic of a hypothesis test.
 ### Approach 2 — p-values
 
 Compute the probability of obtaining a value of the statistic at least as
-extreme as the observed one, assuming that the null hypothesis is true.
+extreme or more as the observed one, assuming that the null hypothesis is true.
 
 Reject the null hypothesis whenever
 
 \[
-p<\alpha.
+p_{value} = P(\text{as extreme or more}| H_{0} = True) <\alpha.
 \]
 
 Both approaches always produce exactly the same statistical decision.
