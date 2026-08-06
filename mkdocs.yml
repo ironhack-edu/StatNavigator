@@ -33,6 +33,7 @@ nav:
       - Welch's t-test: tests/welch-t-test.md
       - One-way ANOVA: tests/one-way-anova.md
       - Two-way ANOVA: tests/two-way-anova.md
+      - Two-proportions z-test: tests/two-proportions-z-test.md
 
   - Concepts:
       - Statistical hypotheses: concepts/hypotheses.md
