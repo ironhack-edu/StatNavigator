@@ -132,6 +132,16 @@ ideas are understood.
   or failing to reject a hypothesis means, and why the claim to be
   supported is normally placed in \(H_1\).
 
+- [One-sided and two-sided tests](concepts/one-sided-and-two-sided-tests.md)  
+  Learn how the alternative hypothesis determines the rejection region,
+  the direction of the statistical test and the interpretation of the
+  p-value.
+
+- [Probability distributions](concepts/probability-distributions.md)  
+  Learn why every test statistic is a random variable, why hypothesis
+  tests require a null distribution, and how different probability
+  distributions arise in statistical inference.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*

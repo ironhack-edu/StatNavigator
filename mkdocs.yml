@@ -36,3 +36,5 @@ nav:
 
   - Concepts:
       - Statistical hypotheses: concepts/hypotheses.md
+      - One-sided and two-sided tests: concepts/one-sided-and-two-sided-tests.md
+      - Probability distributions: concepts/probability-distributions.md 
