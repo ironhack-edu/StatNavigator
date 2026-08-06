@@ -142,6 +142,10 @@ ideas are understood.
   tests require a null distribution, and how different probability
   distributions arise in statistical inference.
 
+- [Computing probabilities with the CDF](concepts/computing-probabilities-with-cdf.md)  
+  Learn how to compute probabilities to the left, to the right and
+  between two values using the cumulative distribution function (CDF).
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
