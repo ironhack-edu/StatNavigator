@@ -250,6 +250,54 @@ Furthermore,
 These properties hold for every cumulative distribution function,
 regardless of the underlying probability distribution.
 
+!!! tip "Symmetric probability distributions"
+
+    The complement rule,
+
+    \[
+    P(X>x)=1-F(x),
+    \]
+
+    applies to **every** probability distribution.
+
+    However, if the distribution is **symmetric** (such as the Normal or
+    Student's *t* distribution), an additional relationship holds.
+
+    Values that are equally far from the centre of the distribution have
+    complementary cumulative probabilities.
+
+    For example,
+
+    \[
+    F(-1.96)=0.025,
+    \]
+
+    whereas
+
+    \[
+    F(1.96)=0.975.
+    \]
+
+    Notice that
+
+    \[
+    0.025+0.975=1.
+    \]
+
+    This is a direct consequence of the symmetry of the distribution.
+
+    It explains why symmetric distributions produce pairs of critical
+    values such as
+
+    \[
+    -1.96
+    \qquad\text{and}\qquad
+    1.96.
+    \]
+
+    This property does **not** hold for asymmetric distributions such as
+    the Chi-square or F distributions.
+
 ---
 
 ## Computing probabilities in Python
