@@ -142,6 +142,14 @@ ideas are understood.
   tests require a null distribution, and how different probability
   distributions arise in statistical inference.
 
+- [Computing probabilities with the CDF](concepts/computing-probabilities-with-cdf.md)  
+  Learn how to compute probabilities to the left, to the right and
+  between two values using the cumulative distribution function (CDF).
+
+- [Computing critical values with the PPF](concepts/computing-critical-values-with-ppf.md)
+  Learn how to compute critical values for left-tailed, right-tailed and
+  two-sided tests using the Percent Point Function (PPF).
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*

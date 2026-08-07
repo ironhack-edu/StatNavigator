@@ -33,8 +33,11 @@ nav:
       - Welch's t-test: tests/welch-t-test.md
       - One-way ANOVA: tests/one-way-anova.md
       - Two-way ANOVA: tests/two-way-anova.md
+      - Two-proportions z-test: tests/two-proportions-z-test.md
 
   - Concepts:
       - Statistical hypotheses: concepts/hypotheses.md
       - One-sided and two-sided tests: concepts/one-sided-and-two-sided-tests.md
       - Probability distributions: concepts/probability-distributions.md 
+      - Computing probabilities with the CDF: concepts/computing-probabilities-with-cdf.md 
+      - Computing critical values with the PPF: concepts/computing-critical-values-with-ppf.md
