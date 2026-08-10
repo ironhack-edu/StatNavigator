@@ -775,7 +775,7 @@ It is not:
 ## Related concepts
 
 - [Computing p-values](computing-p-values.md)
-- Confidence intervals *(coming soon)*
+- [Confidence intervals](computing-confidence-intervals.md)
 - Type I and Type II errors *(coming soon)*
 - Statistical power *(coming soon)*
 - Statistical versus practical significance *(coming soon)*
