@@ -46,7 +46,7 @@ Should we conclude that the population mean is exactly
 
 where $\mu$ represents the actual **population mean**. 
 
-Probably not. In general, $\bar{x}\ne\mu$. In fact, the sample mean $\bar{x}$ will be off from the actual population mean $\mu$ by a certain random amount $\delta$. Thus, $\bar{x}=\mu+\delta$. Some samples will have a smaller delta, others bigger.
+Probably not. In general, $\mu\ne\bar{x}$. In fact, the sample mean $\bar{x}$ will be off from the actual population mean $\mu$ by a certain random amount $\delta$. Thus, $\mu=\bar{x}+\delta$. Some samples will have a smaller delta, others bigger.
 
 A different random sample will have different values. Therefore, a different sample would almost certainly produce a different
 sample mean.
@@ -1001,7 +1001,7 @@ This result is known as the **Law of Large Numbers (LLN).**
 - [Computing probabilities with the CDF](computing-probabilities-with-cdf.md)
 - [Computing critical values with the PPF](computing-critical-values-with-ppf.md)
 - [Computing p-values](computing-p-values.md)
-- Law of Large Numbers (LLN) *(coming soon)*
+- [Law of Large Numbers (LLN)](law-of-large-numbers.md)
 
 ---
 

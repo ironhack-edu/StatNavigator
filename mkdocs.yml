@@ -43,3 +43,4 @@ nav:
       - Computing critical values with the PPF: concepts/computing-critical-values-with-ppf.md
       - Computing p-values: concepts/computing-p-values.md
       - Computing confidence intervals: concepts/computing-confidence-intervals.md
+      - Law of Large Numbers: concepts/law-of-large-numbers.md
