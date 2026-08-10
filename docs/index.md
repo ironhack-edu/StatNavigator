@@ -150,6 +150,10 @@ ideas are understood.
   Learn how to compute critical values for left-tailed, right-tailed and
   two-sided tests using the Percent Point Function (PPF).
 
+- [Computing p-values](concepts/computing-p-values.md)
+  Learn how to compute and interpret p-values, and how they are used
+  together with the significance level to make statistical decisions.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
