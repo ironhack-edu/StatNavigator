@@ -154,6 +154,11 @@ ideas are understood.
   Learn how to compute and interpret p-values, and how they are used
   together with the significance level to make statistical decisions.
 
+- [Computing confidence intervals](concepts/computing-confidence-intervals.md)
+  Learn how confidence intervals are constructed from a point estimate,
+  the standard error and critical values obtained from the appropriate
+  probability distribution.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
