@@ -528,7 +528,7 @@ The next chapter answers these questions.
 
 - [Probability distributions](probability-distributions.md)
 - [Computing probabilities with the CDF](computing-probabilities-with-cdf.md)
-- P-values *(coming soon)*
+- [Computing p-values](computing-p-values.md)
 
 ---
 
