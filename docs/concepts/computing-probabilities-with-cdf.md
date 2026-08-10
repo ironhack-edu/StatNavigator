@@ -553,8 +553,8 @@ This inverse function is called the **Percent Point Function (PPF)**.
 ## Related concepts
 
 - [Probability distributions](probability-distributions.md)
-- Percent Point Function (PPF) *(coming soon)*
-- P-values *(coming soon)*
+- [Computing critical values with the PPF](computing-critical-values-with-ppf.md)
+- [Computing p-values](computing-p-values.md)
 
 ---
 
