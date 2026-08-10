@@ -409,8 +409,8 @@ confidence intervals from a probability distribution.
 - [One-sided and two-sided tests](one-sided-and-two-sided-tests.md)
 - Central Limit Theorem *(coming soon)*
 - [Computing probabilities with the CDF](computing-probabilities-with-cdf.md)
-- Percent point functions (PPF) *(coming soon)*
-- P-values *(coming soon)*
+- [Percent point functions (PPF)](computing-critical-values-with-ppf.md)
+- [Computing p-values](computing-p-values.md)
 
 ---
 

@@ -216,7 +216,7 @@ The p-value measures how unusual the observed test statistic, or a more
 extreme one, would be if \(H_0\) and the assumptions of the statistical
 model were true.
 
-See P-values *(coming soon)* for a detailed explanation.
+See [Computing p-values](computing-p-values.md) for a detailed explanation.
 
 The conclusion is:
 
@@ -427,7 +427,7 @@ The alternative hypothesis determines which part of the null distribution
 is considered evidence against \(H_0\).
 
 See
-One-sided and two-sided tests *(coming soon)*
+[One-sided and two-sided tests](one-sided-and-two-sided-tests.md)
 for diagrams of the rejection regions and an explanation of how
 directionality affects the p-value.
 
@@ -774,7 +774,7 @@ It is not:
 
 ## Related concepts
 
-- P-values *(coming soon)*
+- [Computing p-values](computing-p-values.md)
 - Confidence intervals *(coming soon)*
 - Type I and Type II errors *(coming soon)*
 - Statistical power *(coming soon)*

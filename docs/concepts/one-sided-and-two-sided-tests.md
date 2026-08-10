@@ -378,11 +378,11 @@ They differ only in the way the decision is obtained.
 Detailed explanations of these two approaches are provided in the
 following concept pages:
 
-- Critical values *(coming soon)*;
-- P-values *(coming soon)*;
-- Probability distributions *(coming soon)*;
-- Cumulative distribution functions (CDF) *(coming soon)*;
-- Percent point functions (PPF) *(coming soon)*.
+- [Critical values](computing-p-values.md)
+- [Computing p-values](computing-p-values.md)
+- [Probability distributions](probability-distributions.md)
+- [Cumulative distribution functions (CDF)](computing-probabilities-with-cdf.md)
+- [Percent point functions (PPF)](computing-critical-values-with-ppf.md)
 
 ---
 
@@ -506,10 +506,10 @@ Whenever you encounter a new hypothesis test:
 
 - [Statistical hypotheses](hypotheses.md)
 - [Probability distributions](probability-distributions.md)
-- Critical values *(coming soon)*
-- P-values *(coming soon)*
-- Cumulative distribution functions (CDF) *(coming soon)*
-- Percent point functions (PPF) *(coming soon)*
+- [Computing Critical values](computing-critical-values-with-ppf.md)
+- [Computing p-values](computing-p-values.md)
+- [Cumulative distribution functions (CDF)](computing-probabilities-with-cdf.md)
+- [Percent point functions (PPF)](computing-critical-values-with-ppf.md)
 
 ---
 
