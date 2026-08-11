@@ -159,6 +159,10 @@ ideas are understood.
   the standard error and critical values obtained from the appropriate
   probability distribution.
 
+- [Central Limit Theorem (CLT)](concepts/central-limit-theorem.md)
+  Learn how the Central Limit Theorem makes statistical inference
+  possible by describing the sampling distribution of the sample mean.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
