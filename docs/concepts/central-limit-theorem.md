@@ -558,6 +558,4 @@ expect **from one sample mean to another**.
 This variability is quantified by the **standard error**, which plays a
 central role in confidence intervals and hypothesis tests.
 
-To understand how this quantity is computed and interpreted, see
-
-[Standard error]*(standard-error.md)*.
+To understand how this quantity is computed and interpreted, see [Standard Error of the Mean (SEM)](standard-error-of-the-mean.md).

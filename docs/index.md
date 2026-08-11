@@ -163,6 +163,10 @@ ideas are understood.
   Learn how the Central Limit Theorem makes statistical inference
   possible by describing the sampling distribution of the sample mean.
 
+- [Standard Error of the Mean (SEM)](concepts/standard-error-of-the-mean.md)
+  Learn how the Standard Error of the Mean quantifies the variability of
+  sample means across repeated random samples.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
