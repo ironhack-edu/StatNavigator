@@ -46,3 +46,4 @@ nav:
       - Law of Large Numbers: concepts/law-of-large-numbers.md
       - Central Limit Theorem: concepts/central-limit-theorem.md
       - Standard Error of the Mean: concepts/standard-error-of-the-mean.md
+      - Bessel's correction: concepts/bessel-correction.md

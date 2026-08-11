@@ -227,4 +227,4 @@ correction, is the next step towards understanding many statistical methods.
 
 Continue with
 
-- [Bessel's correction]*(coming soon)*
+- [Bessel's correction](bessel-correction.md)
