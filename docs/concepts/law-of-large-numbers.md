@@ -478,4 +478,4 @@ A different question still remains.
 Answering that question leads to the next fundamental result of
 probability theory:
 
-the [**Central Limit Theorem (CLT)**]*(coming soon)*.
+the [Central Limit Theorem (CLT)](central-limit-theorem.md).

@@ -228,7 +228,7 @@ Typical applications include:
 
 - z-tests
 - confidence intervals based on the Normal approximation
-- the [Central Limit Theorem]*(coming soon)*
+- the [Central Limit Theorem](central-limit-theorem.md)
 
 ---
 
@@ -407,7 +407,7 @@ confidence intervals from a probability distribution.
 
 - [Statistical hypotheses](hypotheses.md)
 - [One-sided and two-sided tests](one-sided-and-two-sided-tests.md)
-- Central Limit Theorem *(coming soon)*
+- [Central Limit Theorem](central-limit-theorem.md)
 - [Computing probabilities with the CDF](computing-probabilities-with-cdf.md)
 - [Percent point functions (PPF)](computing-critical-values-with-ppf.md)
 - [Computing p-values](computing-p-values.md)
