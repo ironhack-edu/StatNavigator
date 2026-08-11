@@ -163,6 +163,14 @@ ideas are understood.
   Learn how the Central Limit Theorem makes statistical inference
   possible by describing the sampling distribution of the sample mean.
 
+- [Standard Error of the Mean (SEM)](concepts/standard-error-of-the-mean.md)
+  Learn how the Standard Error of the Mean quantifies the variability of
+  sample means across repeated random samples.
+
+- [Bessel's Correction](concepts/bessel-correction.md)
+  Learn why sample variance is divided by n−1 instead of n, 
+  and how Bessel's correction reduces the bias when estimating population variability.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
