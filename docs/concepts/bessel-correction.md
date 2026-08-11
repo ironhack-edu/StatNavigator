@@ -351,12 +351,7 @@ After completing this chapter, you should understand that
 - the population standard deviation cannot usually be computed directly
 - replacing the unknown population mean by the sample mean introduces a
   small systematic bias
-- Bessel's correction compensates for this bias by dividing by
-
-  \[
-  n-1;
-  \]
-
+- Bessel's correction compensates for this bias by dividing by $n-1$
 - one degree of freedom is used to estimate the sample mean
 - the corrected sample standard deviation is therefore preferred for
   statistical inference
