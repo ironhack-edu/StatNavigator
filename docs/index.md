@@ -171,6 +171,10 @@ ideas are understood.
   Learn why sample variance is divided by n−1 instead of n, 
   and how Bessel's correction reduces the bias when estimating population variability.
 
+- [Statistical Power](concepts/statistical-power.md)
+  Learn how statistical power measures the ability of a hypothesis test to detect real effects, 
+  and how it is influenced by sample size, effect size, variability and the significance level.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
