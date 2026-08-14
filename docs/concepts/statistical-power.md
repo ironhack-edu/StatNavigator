@@ -270,4 +270,4 @@ This naturally raises another important question.
 
 > **Is every statistically significant result practically meaningful?**
 
-The next chapter introduces [**Statistical versus Practical Significance**]*(statistical-versus-practical-significance)*.
+The next chapter introduces [Statistical versus Practical Significance](statistical-versus-practical-significance.md).

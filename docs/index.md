@@ -175,6 +175,9 @@ ideas are understood.
   Learn how statistical power measures the ability of a hypothesis test to detect real effects, 
   and how it is influenced by sample size, effect size, variability and the significance level.
 
+- [Statistical versus Practical Significance](concepts/statistical-versus-practical-significance.md)
+  Learn how to distinguish between statistical evidence and practical importance when interpreting the results of hypothesis tests.
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*

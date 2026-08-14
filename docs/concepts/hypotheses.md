@@ -777,8 +777,8 @@ It is not:
 - [Computing p-values](computing-p-values.md)
 - [Confidence intervals](computing-confidence-intervals.md)
 - [Type I and Type II errors](computing-p-values.md)
-- [Statistical power](statistical-power.md)
-- Statistical versus practical significance *(coming soon)*
+- [Statistical Power](statistical-power.md)
+- [Statistical versus practical significance](statistical-versus-practical-significance.md)
 - Equivalence and non-inferiority *(coming soon)*
 
 ---
