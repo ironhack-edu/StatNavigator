@@ -178,6 +178,9 @@ ideas are understood.
 - [Statistical versus Practical Significance](concepts/statistical-versus-practical-significance.md)
   Learn how to distinguish between statistical evidence and practical importance when interpreting the results of hypothesis tests.
 
+- [Equivalence and Non-Inferiority](concepts/equivalence-and-non-inferiority.md) 
+  Learn how to
+
 *StatNavigator is under active development. Future additions will include
 assumption checks, non-parametric methods, regression models, categorical
 data analysis, and further conceptual guides.*
