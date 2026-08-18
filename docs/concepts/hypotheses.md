@@ -779,7 +779,7 @@ It is not:
 - [Type I and Type II errors](computing-p-values.md)
 - [Statistical Power](statistical-power.md)
 - [Statistical versus practical significance](statistical-versus-practical-significance.md)
-- Equivalence and non-inferiority *(coming soon)*
+- [Equivalence and Non-Inferiority](equivalence-and-non-inferiority.md)
 
 ---
 
